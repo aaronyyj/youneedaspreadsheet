@@ -197,3 +197,55 @@ footer {
 .template-instructions li {
   margin-bottom: 0.5rem;
 }
+
+/* ── Site Navigation ── */
+.site-nav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover {
+  color: var(--accent);
+}
+
+/* ── Contact Form ── */
+.contact-form {
+  margin-top: 1.5rem;
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+  color: var(--text);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
