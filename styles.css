@@ -1,0 +1,38 @@
+/* - Reset & Base - */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ffffff;
+    color: #2d2d2d;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+/* - Header - */
+header {
+    border-bottom: 3px solid #2a9d8f;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #2a9d8f;
+}
+
+header p{
+    color: #666666;
+    font-size: 1rem;
+}
+
+/* - Main Content - */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
